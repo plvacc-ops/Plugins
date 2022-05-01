@@ -1,0 +1,122 @@
+{
+    "openAutomatically": true,
+    "timelines": {
+        "GD11": {
+            "targetFixes": [ "GD801" ],
+            "viaFixes": [ "IRLUN", "NIKMI", "OSLOG", "KOSEX", "OGDAV", "RATOR"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPGD" ]
+        },
+        "GD29": {
+            "targetFixes": [ "GD941", "GD441" ],
+            "viaFixes": [ "IRLUN", "NIKMI", "OSLOG", "KOSEX", "OGDAV", "RATOR"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPGD" ]
+        },
+        "PO10": {
+            "targetFixes": [ "PO601", "PO413" ],
+            "viaFixes": [ "DEKUT", "DENKO", "AKAPI", "KELOD", "MASIV", "NILPU"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPPO" ]
+        },
+        "PO28": {
+            "targetFixes": [ "PO701", "PO483" ],
+            "viaFixes": [ "DEKUT", "DENKO", "AKAPI", "KELOD", "MASIV", "NILPU"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPPO" ]
+        },
+        "WR11": {
+            "targetFixes": [ "WR601", "WR491" ],
+            "viaFixes": [ "SUDOL", "UVIVI", "XIDNA", "DINOV", "EPOPA", "VAGNI"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWR" ]
+        },
+        "WR29": {
+            "targetFixes": [ "WR701", "WR391" ],
+            "viaFixes": [ "SUDOL", "UVIVI", "XIDNA", "DINOV", "EPOPA", "VAGNI"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWR" ]
+        },
+        "WA11": {
+            "targetFixes": [ "WA409" ],
+            "viaFixes": [ "LIMVI", "NEPOX", "AGAVA", "LOGDA", "BIMPA", "SORIX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWA" ]
+        },
+        "WA15": {
+            "targetFixes": [ "WA613" ],
+            "viaFixes": [ "LIMVI", "NEPOX", "AGAVA", "LOGDA", "BIMPA", "SORIX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWA" ]
+        },
+        "WA29": {
+            "targetFixes": [ "WA728" ],
+            "viaFixes": [ "LIMVI", "NEPOX", "AGAVA", "LOGDA", "BIMPA", "SORIX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWA" ]
+        },
+        "WA33": {
+            "targetFixes": [ "WA529" ],
+            "viaFixes": [ "LIMVI", "NEPOX", "AGAVA", "LOGDA", "BIMPA", "SORIX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPWA" ]
+        },
+        "MO08": {
+            "targetFixes": [ "GODIL" ],
+            "viaFixes": [ "DOSIX", "GOGUS", "NUBLI", "SORIX", "LIMVI", "LOGDA", "NEPOX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPMO" ]
+        },
+        "MO26": {
+            "targetFixes": [ "MO998" ],
+            "viaFixes": [ "DOSIX", "GOGUS", "NUBLI", "SORIX", "LIMVI", "LOGDA", "NEPOX"],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPMO" ]
+        },
+        "KK25": {
+            "targetFixes": [ "KK362", "KK392" ],
+            "viaFixes": [ "GOVRI", "KUKAM", "LENOV", "MEBAN", "NETIR", "PADKA", "BAREX", "MAPIK" ],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPKK" ]
+        },
+        "KK07": {
+            "targetFixes": [ "KK591", "KK388" ],
+            "viaFixes": [ "GOVRI", "KUKAM", "LENOV", "MEBAN", "NETIR", "PADKA", "BAREX", "MAPIK" ],
+            "tagLayout": "extended",
+            "destinationAirports": [ "EPKK" ]
+        },
+        "KT27": {
+            "targetFixes": [ "KT536", "KT571" ],
+            "viaFixes": [ "KUKAM", "GOVRI", "LENOV", "MEBAN", "BAVOK", "BAREX", "MAPIK" ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 60,
+            "destinationAirports": [ "EPKT"]
+        },
+        "KT09": {
+            "targetFixes": [ "KT736", "KT771" ],
+            "viaFixes": [ "KUKAM", "GOVRI", "LENOV", "MEBAN", "BAVOK", "BAREX", "MAPIK" ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 60,
+            "destinationAirports": [ "EPKT"]
+        }
+    },
+    "tagLayouts": {
+        "extended": [
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "static", "width": 1 },
+            { "source": "scratchPad", "width": 4 }
+        ],
+        "simple": [
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true }
+        ]
+    }
+}

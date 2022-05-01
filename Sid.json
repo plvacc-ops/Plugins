@@ -1,0 +1,38 @@
+[
+   {
+      "icao": "EPWA",
+      "sids": {
+         "OLILA": [
+            {
+               "direction": "EVEN"
+            }
+         ],
+         "BAMSO": [
+            {
+               "direction": "ODD"
+            }
+         ],
+         "XIMBA": [
+            {
+               "direction": "ODD"
+            }
+         ],
+         "EVINA": [
+            {
+               "min_fl": 180,
+               "direction":"EVEN"
+            }
+         ],
+         "SOXER": [
+            {
+               "directon": "EVEN"
+            }
+         ],
+         "LOLSI": [
+            {
+               "direction": "EVEN"
+            }
+         ]      
+      }
+   }
+]
