@@ -1,0 +1,55 @@
+EPWW_CTR Warszawa Radar
+EPWW_1_CTR Warszawa Radar
+EPWW_S_CTR Warszawa Radar
+EPWW_N_CTR Warszawa Radar
+EPWW_W_CTR Warszawa Radar
+EPWW_T_CTR Warszawa Radar [trening]
+EPWW_X_CTR Warszawa Radar [trening]
+EPWA_TWR Okecie Wieza
+EPWA_T_TWR Okecie Wieza [trening]
+EPWA_X_TWR Okecie Wieza [trening]
+EPWA_GND Okecie Ground
+EPWA_DEL Okecie Delivery
+EPWA_T_TWR Okecie Wieza [trening]
+EPWA_X_TWR Okecie Wieza [trening]
+EPMO_TWR Modlin Wieza
+EPLL_TWR Lodz Wieza
+EPLB_TWR Lublin Wieza
+EPWA_S_APP Warszawa Zblizanie
+EPWA_N_APP Warszawa Zblizanie
+EPWA_X_APP Warszawa Zblizanie [trening]
+EPWA_T_APP Warszawa Zblizanie [trening]
+EPWA_F_APP Warszawa Director
+EPWA_1_APP Warszawa Zblizanie
+EPGD_APP Gdansk Zblizanie
+EPGD_T_APP Gdansk Zblizanie [trening]
+EPGD_X_APP Gdansk Zblizanie [trening]
+EPGD_TWR Gdansk Wieza
+EPGD_GND Gdansk Ground
+EPBY_TWR Bydgoszcz Wieza
+EPSY_TWR Szymany Wieza
+EPSC_TWR Szczecin Wieza
+EPPO_S_APP Poznan Zblizanie
+EPPO_N_APP Poznan Zblizanie
+EPPO_TWR Poznan Wieza
+EPPO_GND Poznan Ground
+EPPO_DEL Poznan Delivery
+EPWR_TWR Wroclaw Wieza
+EPWR_GND Wroclaw Ground
+EPWR_DEL Wroclaw Delivery
+EPKS_TWR Krzesiny Tower
+EPKT_TWR Katowice Wieza
+EPKT_GND Katowice Ground
+EPKK_TWR Krakow Tower
+EPKK_T_TWR Krakow Tower [trening]
+EPKK_X_TWR Krakow Tower [trening]
+EPKK_GND Krakow Ground
+EPKK_DEL Krakow Delivery
+EPKK_F_APP Krakow Director
+EPKK_K_APP Krakow Approach [Katowice]
+EPKK_APP Krakow Approach
+EPKK_T_APP Krakow Approach [trening]
+EPKK_X_APP Krakow Approach [trening]
+EPRZ_TWR Rzeszow Tower
+EPRZ_GND Rzeszow Ground
+EPBC_TWR Babice Informacja AFIS
