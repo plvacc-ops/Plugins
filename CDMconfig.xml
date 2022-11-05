@@ -1,8 +1,17 @@
 <?xml version="1.0"?>
 <CDM>
-	<defaultRate option="0" />
-	<rate ops="40" />
-	<rateLvo ops="20" />
-	<expiredCtot time="15" />
-	<ReaMsg minutes="0" />
+	<ctot option="cid" />
+	<rate ops="20" />
+	<rateLvo ops="10" />
+	<expiredCtot time="5" />
+	<realMode mode="true" />
+	<Taxizones url="https://markow.pl/atc/acdm/taxizones.txt" />
+	<Ctot url="https://markow.pl/atc/acdm/ctot.txt" />
+	<DefaultTaxiTime minutes="7" />
+	<RefreshTime seconds="10" />
+	<Debug mode="false" />
+	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
+	<ftpHost host="s150.cyber-folks.pl" />
+	<ftpUser user="plvacc@markow.pl" />
+	<ftpPassword password="V@tsim2022" />
 </CDM>
