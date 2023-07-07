@@ -100,6 +100,11 @@ Airport_Radius=2.0
 [EPMO]
 Airport_Elevation=344
 Airport_Radius=2.0
+List_Inbound=*,2,100,900
+List_Outbound=*,2,300,900
+Airport_LVP=1
+Airport_Dep_Transfer_Height=2000
+Airport_Dep_Transfer_Dist=10
 
 [EPPO]
 Airport_Elevation=308
@@ -126,6 +131,9 @@ Airport_Elevation=362
 Airport_Radius=2.0
 Airport_Runway_End=29:N052.09.39.800:E020.59.01.667
 Airport_Runway_End=33:N052.08.57.323:E020.58.53.447
+Airport_LVP=1
+Airport_Dep_Transfer_Height=2000
+Airport_Dep_Transfer_Dist=10
 
 [EPWR]
 Airport_Elevation=406
