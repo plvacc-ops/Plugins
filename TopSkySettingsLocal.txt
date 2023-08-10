@@ -1,5 +1,4 @@
 Setup_AutoSignIn=1
-RDF_Mode = 2
 
 System_GUI_Scale_GlobalMenu=1.0
 System_GUI_Scale_Menus=1.3
