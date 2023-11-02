@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<CDM>
+	<rate ops="20" />
+	<rateLvo ops="10" />
+	<expiredCtot time="5" />
+	<realMode mode="true" />
+	<Rates url="https://cdm.plvacc.pl/acdm_plugin/rate.txt" />
+	<Taxizones url="https://cdm.plvacc.pl/acdm_plugin/taxizones.txt" />
+	<Ctot url="https://cdm.plvacc.pl/acdm_plugin/ctot.txt" />
+	<DefaultTaxiTime minutes="7" />
+	<RefreshTime seconds="10" />
+	<Debug mode="false" />
+	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
+	<ftpHost host="s160.cyber-folks.pl" />
+	<ftpUser user="acdm-plugin@plvacc.pl" />
+	<ftpPassword password="V@tsim2022" />
+	<Su_Wait mode="false" />
+</CDM>
