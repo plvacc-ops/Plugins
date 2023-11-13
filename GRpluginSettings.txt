@@ -180,8 +180,8 @@ System_State_OnFreq=STBY
 System_State_Parked=PARK
 System_State_Push=PUSH
 System_State_StartUp=STUP
-System_State_Taxi_In=TAXI
-System_State_Taxi_Out=ARRV
+System_State_Taxi_In=ARRV
+System_State_Taxi_Out=TAXI
 
 System_TowerMode_AltFilter_High=6500
 System_TowerMode_AltFilter_Low=0
@@ -199,10 +199,12 @@ Window_APP_Extensions=1
 Airport_Elevation=236
 Airport_Radius=2.0
 Airport_Dep_Transfer_Height=13000
+Airport_LVP=0
 
 [EPGD]
 Airport_Elevation=489
 Airport_Radius=2.0
+Airport_LVP=1
 
 [EPKK]
 Airport_Dep_Transfer_Dist=4.0
@@ -220,14 +222,17 @@ Airport_SMR_Track=2
 [EPKT]
 Airport_Elevation=1007
 Airport_Radius=2.0
+Airport_LVP=1
 
 [EPLB]
 Airport_Elevation=633
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPLL]
 Airport_Elevation=606
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPMO]
 Airport_Elevation=344
@@ -241,22 +246,27 @@ Airport_Dep_Transfer_Dist=10
 [EPPO]
 Airport_Elevation=308
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPRA]
 Airport_Elevation=623
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPRZ]
 Airport_Elevation=693
 Airport_Radius=2.0
+Airport_LVP=1
 
 [EPSC]
 Airport_Elevation=155
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPSY]
 Airport_Elevation=464
 Airport_Radius=2.0
+Airport_LVP=0
 
 [EPWA]
 Airport_Dep_Transfer_Dist=10
@@ -282,7 +292,9 @@ AppPath=EPWA:33:N052.09.16.500:E020.58.36.770:331.7:L:408
 [EPWR]
 Airport_Elevation=406
 Airport_Radius=2.0
+Airport_LVP=1
 
 [EPZG]
 Airport_Elevation=194
 Airport_Radius=2.0
+Airport_LVP=0
