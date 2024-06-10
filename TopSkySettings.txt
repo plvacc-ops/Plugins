@@ -165,6 +165,8 @@ RwyAppLines_Markers=5
 
 SAP=1
 
+SafetyNets_Inhibit_SSR=0002
+
 Shortcut_RadarMenu_Combo=0x00
 
 STCA=1
