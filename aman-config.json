@@ -75,26 +75,26 @@
         },
         "KK25": {
             "targetFixes": [ "KK362", "KK392" ],
-            "viaFixes": [ "GOVRI", "KUKAM", "LENOV", "MEBAN", "NETIR", "PADKA", "BAREX", "MAPIK" ],
+            "viaFixes": [ "MOFKE", "KUKAM", "PADKA", "NETIR", "UWLER", "MEBAN", "LENOV", "GOVRI"],
             "tagLayout": "extended",
             "destinationAirports": [ "EPKK" ]
         },
         "KK07": {
             "targetFixes": [ "KK591", "KK388" ],
-            "viaFixes": [ "GOVRI", "KUKAM", "LENOV", "MEBAN", "NETIR", "PADKA", "BAREX", "MAPIK" ],
+            "viaFixes": [ "MOFKE", "KUKAM", "PADKA", "NETIR", "UWLER", "MEBAN", "LENOV", "GOVRI"],
             "tagLayout": "extended",
             "destinationAirports": [ "EPKK" ]
         },
-        "KT27": {
+        "KT26": {
             "targetFixes": [ "KT536", "KT571" ],
-            "viaFixes": [ "KUKAM", "GOVRI", "LENOV", "MEBAN", "BAVOK", "BAREX", "MAPIK" ],
+            "viaFixes": [ "MOFKE", "KUKAM", "UWLER", "GOVRI", "MEBAN", "LENOV", "BAVOK" ],
             "tagLayout": "extended",
             "defaultTimeSpan": 60,
             "destinationAirports": [ "EPKT"]
         },
-        "KT09": {
+        "KT08": {
             "targetFixes": [ "KT736", "KT771" ],
-            "viaFixes": [ "KUKAM", "GOVRI", "LENOV", "MEBAN", "BAVOK", "BAREX", "MAPIK" ],
+            "viaFixes": [ "MOFKE", "KUKAM", "UWLER", "GOVRI", "MEBAN", "LENOV", "BAVOK" ],
             "tagLayout": "extended",
             "defaultTimeSpan": 60,
             "destinationAirports": [ "EPKT"]
@@ -103,7 +103,7 @@
     "tagLayouts": {
         "extended": [
             { "source": "callsign", "width": 8 },
-            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "ï¿½", "width": 2, "isViaFixIndicator": true },
             { "source": "aircraftType", "width": 5 },
             { "source": "aircraftWtc", "width": 2 },
             { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
@@ -115,7 +115,7 @@
         ],
         "simple": [
             { "source": "callsign", "width": 8 },
-            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "static", "defaultValue": "ï¿½", "width": 2, "isViaFixIndicator": true },
             { "source": "remainingDistance", "width": 4, "rightAligned": true }
         ]
     }
