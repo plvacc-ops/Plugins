@@ -110,6 +110,11 @@ Color_WM_Frame=88,95,99
 Equip_UseCodes=1
 Equip_ModeS=WZLCISG
 
+HTTP_GRIB_Latitude_Max=55
+HTTP_GRIB_Latitude_Min=49
+HTTP_GRIB_Longitude_Max=25
+HTTP_GRIB_Longitude_Min=14
+
 Label_ADES_MaxChars=4
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowExtra=1
