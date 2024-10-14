@@ -115,6 +115,10 @@ HTTP_GRIB_Latitude_Min=49
 HTTP_GRIB_Longitude_Max=25
 HTTP_GRIB_Longitude_Min=14
 
+HTTP_NOTAM_Server=https://cv.plvacc.pl/
+HTTP_NOTAM_Page_Prefix=notam/get-icao-format?icao=
+HTTP_NOTAM_Page_Suffix=&read=true
+
 Label_ADES_MaxChars=4
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowExtra=1
